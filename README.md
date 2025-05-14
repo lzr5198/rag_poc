@@ -1,4 +1,4 @@
-# Local RAG System using LangChain, FAISS, and Mistral 7B
+# Local QA System using LangChain, FAISS, and Mistral 7B
 
 ## Problem Interpretation
 
@@ -36,8 +36,8 @@ This Proof of Concept (PoC) implements a **Retrieval-Augmented Generation (RAG)*
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/local-rag-poc.git
-cd local-rag-poc
+git clone https://github.com/lzr5198/rag_poc.git
+cd rag_poc
 ```
 
 ### 2. Create Environment and Install Dependencies
@@ -71,7 +71,7 @@ Put your .txt documents into the docs folder.
 **Project Structure**
 
 ```bash
-rag-poc/
+rag_poc/
 ├──docs/
   └── filename1.txt
   └── filename2.txt
