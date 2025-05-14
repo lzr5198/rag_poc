@@ -45,6 +45,7 @@ cd rag_poc
 conda create -n rag python=3.11
 conda activate rag
 pip install -r requirements.txt
+# for Macs
 ```
 
 ### 3. Download the Mistral Model

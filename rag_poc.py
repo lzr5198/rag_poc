@@ -25,10 +25,10 @@ def load_documents(doc_dir):
 def main(question):
   # Use local language model: mistral
   llm = LlamaCpp(
-    model_path="/Users/kevinlin/.models/mistral-7b-instruct-v0.1.Q2_K.gguf",
-    # model_path="/path/to/model",
+    model_path="/path/to/model",
     n_ctx=2048,
-    temperature=0.7
+    temperature=0.7, 
+    verbose=False
   )
 
   doc_dir = "./docs"
