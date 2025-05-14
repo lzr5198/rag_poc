@@ -1,0 +1,9 @@
+langchain>=0.1.0
+langchain-community>=0.0.15
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+llama-cpp-python>=0.2.24
+
+# Optional
+tqdm>=4.66.1
+numpy>=1.24.0
